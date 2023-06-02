@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.stationcontroller">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dcd0ff" height="186.0" layoutX="814.0" stroke="#dcd0ff" strokeType="INSIDE" width="186.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dcd0ff" height="186.0" layoutX="443.0" stroke="#dcd0ff" strokeType="INSIDE" width="186.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dcd0ff" height="186.0" layoutY="515.0" stroke="#dcd0ff" strokeType="INSIDE" width="186.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dcd0ff" height="186.0" layoutX="372.0" layoutY="515.0" stroke="#dcd0ff" strokeType="INSIDE" width="186.0" />
+      <TextArea fx:id="showDetails" layoutY="185.0" prefHeight="332.0" prefWidth="629.0" wrapText="true">
+         <font>
+            <Font name="Marlett" size="17.0" />
+         </font>
+      </TextArea>
+      <Button fx:id="showData" layoutX="730.0" layoutY="371.0" mnemonicParsing="false" onAction="#onClickShowData" prefHeight="38.0" prefWidth="169.0" style="-fx-background-radius: 30;" text="Show data">
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Button fx:id="update" layoutX="646.0" layoutY="281.0" mnemonicParsing="false" onAction="#onClickUpdate" prefHeight="38.0" prefWidth="169.0" style="-fx-background-radius: 30;" text="Update">
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Button fx:id="Close" layoutX="823.0" layoutY="281.0" mnemonicParsing="false" onAction="#Onclickclose" prefHeight="38.0" prefWidth="169.0" style="-fx-background-radius: 30;" text="Close">
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Label fx:id="title" alignment="CENTER" layoutY="14.0" prefHeight="66.0" prefWidth="408.0" text="Station Details">
+         <font>
+            <Font name="Book Antiqua" size="51.0" />
+         </font>
+      </Label>
+      <Label fx:id="tText" layoutX="14.0" layoutY="396.0" prefHeight="21.0" prefWidth="264.0">
+         <font>
+            <Font size="17.0" />
+         </font></Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dcd0ff" height="186.0" layoutX="814.0" layoutY="515.0" stroke="#dcd0ff" strokeType="INSIDE" width="186.0" />
+   </children>
+</AnchorPane>
