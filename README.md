@@ -13,3 +13,4 @@ Test case no	Test case	Input data	Steps to execute test case	Expected result	Act
 7.	search 
 & delete
 	click on search button & for deleting click on delete button	admin will give vehicle_no to search particular vehicle information	after entering vehicle_no all detail data of that vehicle that page will be display	after entering vehicle_no all detail data of that vehicle get display
+![Screenshot 2023-06-02 010126](https://github.com/user-attachments/assets/b9805542-802c-45dc-aabf-8b55e2bbbcfc)
